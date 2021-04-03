@@ -131,7 +131,7 @@ header.fixed #logo {
 
 #top {
   width: 100%;
-  background-image: url(http://www.abra.fi/wp-content/uploads/2018/06/close-up-code-coding-160107-2000x1200.jpg);
+  background-image: url(../images/image1.jpg);
   background-blend-mode: multiply;
   background-color: #2e3a44;
   background-size: cover;
@@ -178,7 +178,7 @@ header.fixed #logo {
   }
 }
 
-/* Блок з Block with */
+/* Block with MAIN*/
 
 #main {
   float: left;
