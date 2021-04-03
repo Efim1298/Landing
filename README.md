@@ -1,8 +1,8 @@
 # Short description
 
-### The first layout of the site in HTML5 and CSS3 + jQuery
+## The first layout of the site in HTML5 and CSS3 + jQuery
 
-## This presentation(LandingPage) was created several projects written in HTML, CSS, React, JS and the static page.
+### This presentation(LandingPage) was created several projects written in HTML, CSS, React, JS and the static page.
 
 Projects:
 
