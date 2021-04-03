@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <header>
+      <div id="logo" onclick="slowScroll('#top')">
+        <span>eFIMa</span>
+      </div>
+      <div id="about">
+        <a href="#" title="Вступ" onclick="slowScroll('#main')">Вступ</a>
+        <a href="#" title="Портфоліо" onclick="slowScroll('#projects')"
+          >Портфоліо</a
+        >
+        <a href="#" title="Служба підтримки" onclick="slowScroll('#support')"
+          >Служба підтримки</a
+        >
+        <a href="#" title="FAQ" onclick="slowScroll('#faq')">FAQ</a>
+      </div>
+    </header>
+
+    <!-- Main -->
+
+    <div id="top">
+      <h1>Програмування</h1>
+      <h3>як спосіб життя!</h3>
+    </div>
+
+    <div id="main">
+      <div class="intro">
+        <h2>Сайт-вітрина</h2>
+        <span
+          >створений для презентації навичок і знань у сфері
+          веб-програмування</span
+        >
+      </div>
+      <div class="text">
+        <span
+          >Лендинг - це будь-яка сторінка, яка закликає користувача що-небудь
+          зробити. Наприклад, підписатися на розсилку, купити білет на
+          конференцію, запросити кошторис або просто скачати презентацію.</span
+        >
+      </div>
+    </div>
+
+    <!-- Projects -->
+
+    <div id="projects">
+      <h2>Мої проекти</h2>
+      <h4>HTML, CSS, JS і React</h4>
+
+      <div id="img1">
+        <a href="https://efim1298.github.io/Snake/"
+          ><img
+            src="images/snake.png"
+            width="190px"
+            height="190px"
+            alt="Помилка!"
+          /><b>Snake - Зіграй зараз!</b></a
+        >
+      </div>
+
+      <div id="img2">
+        <a href="https://efim1298.github.io/weather/"
+          ><img
+            src="images/weather.png"
+            width="190px"
+            height="190px"
+            alt="Помилка!"
+          /><b>Weather - Дізнайся погоду в своєму місці!</b></a
+        >
+      </div>
+
+      <div id="img3">
+        <a href="https://efim1298.github.io/LinusTorvalds/"
+          ><img
+            src="images/LinusTorvalds.png"
+            width="190px"
+            height="190px"
+            alt="Помилка!"
+          /><b>Лінус Торвальдс - творець Linux!</b></a
+        >
+      </div>
+    </div>
+
+    <!-- Tech support -->
+
+    <div id="support">
+      <center><h5>Зворотній зв'язок</h5></center>
+      <form id="form_input">
+        <label for="name">Ім'я<span>*</span></label
+        ><br />
+        <input
+          type="text"
+          placeholder="Введіть ім'я"
+          name="name"
+          id="name"
+        /><br />
+        <label for="email">Ваша пошта <span>*</span></label
+        ><br />
+        <input
+          type="email"
+          placeholder="Введіть email"
+          name="email"
+          id="email"
+        /><br />
+        <label for="name">Причина звернення<span>*</span></label
+        ><br />
+        <input
+          type="text"
+          placeholder="Введіть причину"
+          name="name"
+          id="name"
+        /><br />
+        <label for="message">Повідомлення <span>*</span></label
+        ><br />
+        <textarea
+          placeholder="Введіть ваше повідомлення"
+          name="message"
+          id="message"
+        ></textarea
+        ><br />
+        <div id="mess_send" class="btn">Відправити</div>
+      </form>
+    </div>
+
+    <!-- Frequently Asked Question(s)-->
+
+    <div id="faq">
+      <h2 align="center">Питання та відповіді</h2>
+
+      <div>
+        <span class="title">Оплата і доставка</span><br />
+        <span class="heading">Як я можу оплатити своє замовлення?</span>
+        <p>
+          Зараз доступні такі способи оплати: готівкова оплата, безготівкова
+          оплата, оплата картами Visa і MasterCard.
+        </p>
+        <span class="heading">Чи можливо купити товар в розстрочку?</span>
+        <p>
+          На жаль, в даний момент можливості купувати товари в розстрочку немає.
+        </p>
+        <span class="heading"
+          >Скільки днів товар знаходиться в пункті видачі?</span
+        >
+        <p>
+          У відділенні кур'єрських служб замовлення буде перебувати протягом 3
+          робочих днів. По закінченню цього терміну, замовлення автоматично
+          повертається відправнику.
+        </p>
+      </div>
+      <div>
+        <span class="title">Часто задавані питання</span><br />
+        <span class="heading">Як скасувати замовлення?</span>
+        <p>
+          Ви можете скасувати замовлення по телефону (000) 77-0-222 або (000)
+          333-80-80.
+        </p>
+        <span class="heading">Які переваги дає реєстрація?</span>
+        <p>
+          Реєстрація дозволяє вам переглядати їхню історію замовлень і
+          отримувати по електронній пошті розсилку про новинки та акції Розетки.
+          Логіном для входу (тобто полем, по якому система зможе вас розпізнати)
+          є адреса електронної пошти.
+        </p>
+        <span class="heading"
+          >Що робити, якщо оплачений товар не було доставлено?</span
+        >
+        <p>
+          Ми страхуємо весь товар, який відправляємо в інші міста. У разі
+          відсутності (за якимись причинами) Вашого товару в офісі перевізника,
+          ми протягом 2 - 3 днів відправимо Вам новий товар.
+        </p>
+      </div>
+      <div>
+        <span class="title">Гарантія та сервісне обслуговування</span><br />
+        <span class="heading">На які товари надається гарантія?</span>
+        <p>
+          На товари в нашому магазині надається гарантія, яка підтверджує
+          зобов'язання по відсутності в товарі заводських дефектів. Гарантія
+          надається на термін від 2-х тижнів до 36 місяців в залежності від
+          сервісної політики виробника. Термін гарантії вказаний в описі кожного
+          товару на нашому сайті.
+        </p>
+        <span class="heading">Я можу обміняти або повернути товар?</span>
+        <p>
+          Так, ви можете обміняти або повернути товар протягом 14 днів після
+          покупки. Це право гарантує вам «Закон про захист прав споживача».
+        </p>
+        <span class="heading"
+          >Я хочу обміняти або повернути товар. Який графік роботи у сервісного
+          відділу?</span
+        >
+        <p>
+          Графік роботи: c понеділка по суботу з 10-00 до 21-00, в неділю - з
+          10-00 до 18-00. Телефон: (000) 999-88-33
+        </p>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script>
+      function slowScroll(id) {
+        $("html, body").animate(
+          {
+            scrollTop: $(id).offset().top,
+          },
+          500
+        );
+      }
+
+      $(document).on("scroll", function () {
+        if ($(window).scrollTop() === 0) $("header").removeClass("fixed");
+        else $("header").attr("class", "fixed");
+      });
+    </script>
+  </body>
+</html>
