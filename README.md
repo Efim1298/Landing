@@ -1,4 +1,3 @@
-# Short description
 
 ## The first layout of the site in HTML5 and CSS3 + jQuery
 
